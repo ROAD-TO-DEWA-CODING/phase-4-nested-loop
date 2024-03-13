@@ -18,7 +18,7 @@ i = i + 1
 console.time('executionTime')
 console.log(2)
 console.log(3)
-for (let i = 3; i < 100000; i++) {
+for (let i = 0; i < 5; i++) {
     //? NESTED LOOP
     if (i % 2 === 0) continue
 
